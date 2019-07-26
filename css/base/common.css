@@ -1,0 +1,7 @@
+.hidden {display: block; position: absolute; z-index: -100; width: 0; height: 0; overflow: hidden;}
+
+.clearfix:after, .clearfix::after {content: ""; display: block; width: 100%; height: 0; clear: both;}
+
+
+.full_area{width: 100%; height: 100%; min-height: 800px; max-height: 1600px;}
+.wrap_outer {margin: auto; width: 100%; max-width: 1300px; height: 100%;}

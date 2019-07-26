@@ -1,0 +1,30 @@
+#product_intro {height: 1000px; background-color: #fff; padding-top: 154px; box-sizing: border-box; position: relative;}
+#product_intro > .textBox {width: 642px; height: 236px; margin-left: 320px;}
+#product_intro > .textBox > span {display: block;}
+#product_intro > .textBox > span:nth-child(1) {width: 266px; height: 51px; background-image: url('../../img/product_intro/text_1.png'); margin-bottom: 30px; position: absolute; top: 150px; left: 100px; opacity: 0;}
+#product_intro > .textBox > dl {position: absolute; left: 200px; margin-top: 100px; width: 700px; height: 141px;}
+#product_intro > .textBox > dl > dd{display: block; font-size: 21px; font-weight: bold; color: #666;}
+#product_intro > .textBox > dl > dd:nth-child(1){margin-bottom: 25px;}
+/* #product_intro > .textBox > dl {width: 638px; height: 141px; background-image: url('../../img/product_intro/text_2.png');} */
+#product_intro > .imgBox {position: relative; width: 1617px; height: 552px; margin-left: 222px; position: relative;}
+#product_intro > .imgBox > div > span {display: block; float: left; position: absolute; bottom: 0;}
+#product_intro > .imgBox > .img_1 > span {width: 429px; height: 465px; background-image: url('../../img/product_intro/cow.png'); margin-right: 94px;}
+#product_intro > .imgBox > .img_2 > span {width: 396px; height: 392px; background-image: url('../../img/product_intro/lemon.png'); margin-right: 90px; left: 560px; background-repeat: no-repeat; background-size: contain;}
+#product_intro > .imgBox > .img_3 > span {width: 527px; height: 550px; background-image: url('../../img/product_intro/dish.png'); right: 0;}
+
+#product_intro > .imgBox > div > dl {position: absolute; display: block; width: 450px; height: 200px; position: absolute;}
+#product_intro > .imgBox > div > dl > dt {display: block; width: 277px; height: 50px;}
+#product_intro > .imgBox > div > dl > dd {display: block; width: 354px; height: 116px; margin-left: 50px;}
+
+
+#product_intro > .imgBox > .img_1 > dl {top:500px; opacity: 0;} 
+/* #product_intro > .imgBox > .img_1 > dl {top:350px;}  */
+#product_intro > .imgBox > .img_2 > dl {left: 554px; top:500px; opacity: 0;} 
+/* #product_intro > .imgBox > .img_2 > dl { top:350px;} */
+#product_intro > .imgBox > .img_3 > dl {right: 20px; top:500px; opacity: 0;}
+/* #product_intro > .imgBox > .img_3 > dl {right: 20px; top:350px;} */
+
+#product_intro > .imgBox > div > dl > dt {text-align: center; font-weight: bold; font-size: 50px; color: #3371ff; text-shadow: 2px 2px 2px gray;}
+#product_intro > .imgBox > div > dl > dd {text-align: center; font-size: 90px; font-weight: bold; color: #59d300; text-shadow: 2px 2px 2px gray;}
+
+

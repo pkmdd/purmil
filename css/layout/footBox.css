@@ -1,0 +1,15 @@
+#footBox {height: 230px; background-color: #fff; border-top: 4px solid #3371ff; padding-left: 330px; padding-top: 35px; box-sizing: border-box; position: relative;}
+#footBox > h2 {width: 121px; height: 75px; display: block;background-image: url('../../img/headBox/logo.png'); float: left;}
+
+#footBox > h2 > a {display: block; width: 100%; height: 100%;}
+#footBox > .atagBox {float: left; width: 880px; height: 28px; margin-bottom: 10px;}
+#footBox > .atagBox > ul {width: 100%; height: 100%; padding-left: 10px; border-bottom: 1px solid #333;}
+#footBox > .atagBox > ul > li {float: left; margin-right: 50px;}
+#footBox > .atagBox > ul > li > a {font-weight: bold; text-decoration: none; color: #333;}
+#footBox > .com_addressBox {width: 880px; height: 28px; float: left; padding-left: 10px; box-sizing: border-box; margin-bottom: 15px;}
+#footBox > .com_addressBox > dl {width: 100%; height: 100%;}
+#footBox > .com_addressBox > dl > dd {margin-right: 40px; float: left; font-weight: bold; font-size: 14px; text-decoration: none; color: #555;}
+#footBox > .com_addressBox > dl > dd:last-child{margin-right: 0;}
+#footBox > .copyright {width: 387px; height: 28px; position: absolute; top:100px; left: 450px;}
+#footBox > .copyright > dl{margin-left: 10px; width: 100%; height: 100%;}
+#footBox > .copyright > dl > dd {font-weight: bold; font-size: 14px; text-decoration: none; color: #555;}

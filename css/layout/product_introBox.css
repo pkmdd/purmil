@@ -1,0 +1,19 @@
+#product_introBox { height: 1000px; background-color: #fff; padding-top: 220px; box-sizing: border-box;}
+#product_introBox > .textBox {width: 580px; height: 174px;  margin: auto;}
+#product_introBox > .textBox > span {display: block;}
+#product_introBox > .textBox > span:nth-child(1) {position: absolute; left: 500px; width: 381px; height: 51px; background-image: url('../../img/product_introBox/text1.png'); margin:auto; margin-bottom: 40px;}
+#product_introBox > .textBox > dl {width: 650px; height: 65px;}
+#product_introBox > .textBox > dl > dd {position: absolute; top: 3880px; left: 500px; text-align: center; color: #666; font-size: 22px; font-weight: bold;}
+/* #product_introBox > .textBox > span:nth-child(2) {width: 560px; height: 65px; background-image: url('../../img/product_introBox/text2.png'); margin:auto;} */
+
+#product_introBox > .productBox {width: 1332px; height: 518px; margin: auto;}
+#product_introBox > .productBox > .product_01 {width: 400px; height: 518px; float: left;margin-right: 100px;}
+#product_introBox > .productBox > .product_02 {width: 387px; height: 518px; float: left; }
+#product_introBox > .productBox > .product_03 {width: 325px; height: 518px; float: right; }
+#product_introBox > .productBox > .box > .button {width: 204px; height: 61px; margin: auto; margin-top: 60px; background-color: #47b200; border-radius: 204px;}
+#product_introBox > .productBox > .box > .button > button { color: #fff; font-size: 18px; font-weight: bold;}
+#product_introBox > .productBox > .box:last-child > .button {margin-top: 20px;}
+#product_introBox > .productBox > .box > .button > button {width: 100%; height: 100%;}
+#product_introBox > .productBox > .box:nth-child(1) > span {display: block; width: 400px; height: 396px; background-image: url('../../img/product_introBox/img1.png');}
+#product_introBox > .productBox > .box:nth-child(2) > span {display: block; width: 387px; height: 387px; background-image: url('../../img/product_introBox/img2.png');}
+#product_introBox > .productBox > .box:nth-child(3) > span {display: block; width: 325px; height: 423px; background-image: url('../../img/product_introBox/img3.png');}

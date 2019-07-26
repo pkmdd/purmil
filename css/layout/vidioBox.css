@@ -1,0 +1,16 @@
+
+#vidioBox {position: relative; height: 813px; background-color: #fff; background-repeat: no-repeat; box-sizing: border-box}
+#vidioBox > iframe {width: 1900px; height: 813px; position: absolute;}
+#vidioBox > .button {width: 138px; height: 160px; margin: auto; background-image: url('../../img/vidioBox/playbutton.png'); position: absolute; z-index: 500; top: 300px; left: 900px;}
+#vidioBox > .button > button {width: 100%; height: 100%;}
+#vidioBox > .menuBox {width: 220px; height: 65px; position: absolute; top:700px; right: 0px;}
+#vidioBox > .menuBox > button {display: block; width: 50px; height: 50px; border-radius: 100%; background-color: #3371ff; float: left; margin-right: 20px;}
+#vidioBox > .menuBox > button > span {display: block; width: 35px; height: 23px; margin: auto; background-image: url('../../img/vidioBox/solid.png'); background-size: cover;}
+#vidioBox > .menuBox > span {display: block; width: 93px; height: 44px; float: left; background-image: url('../../img/vidioBox/MORE\ VIDEOS.png');}
+#vidioBox > .list {position: relative; width: 800px; height: 813px; background-color: #3371ff; position: absolute; top: 0; right: -800px;}
+#vidioBox > .list > .hidden_btn {display: block; width: 50px; height: 50px; border-radius: 100%; background-color: #3371ff; float: left; margin-right: 20px; position: absolute; top:0; right: 0;}
+#vidioBox > .list > button > span {display: block; width: 35px; height: 23px; margin: auto; background-image: url('../../img/headBox/gnb_bt.png'); background-size: cover;}
+#vidioBox > .list > ul {position: absolute; left: 170px; top: 150px; width: 500px; height: 500px;}
+#vidioBox > .list > ul > li {margin-bottom: 30px;}
+#vidioBox > .list > ul > li > a {font-size: 80px; font-weight: bolder; margin-bottom: 30px; color: #fff; text-decoration: none;}
+

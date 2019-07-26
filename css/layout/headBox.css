@@ -1,0 +1,21 @@
+#headBox {height: 129px; padding-left: 24px; padding-right: 24px; padding-top: 24px; box-sizing: border-box; position: absolute; position: fixed; z-index: 100;}
+#headBox > h1 { float: left;}
+#headBox > h1 > a {display: block; width: 121px; height: 75px; background-image: url('../../img/headBox/logo.png');}
+#headBox > .menuBox {width: 64px; height: 64px; border-radius: 100%; background-color: #ccc; float: right; margin-top: 10px;}
+#headBox > .menuBox > .gnb_btn > button {width: 64px; height: 64px; background-color: #22b24c; border-radius: 100%; position: relative; z-index: 500;}
+#headBox > .menuBox > .gnb_btn > button > span {display: block; width: 35px; height: 23px; margin: auto; background-image: url('../../img/vidioBox/solid.png');}
+#headBox > .menuBox > .gnb_btn > button:last-child > span {display: block; width: 35px; height: 23px; margin: auto; background-image: url('../../img/headBox/gnb_bt.png');}
+
+#headBox > .menuBox > .gnb {width: 500px; height: 1080px; background-color: #22b24c; top: 0px; right: -500px; position: absolute; overflow: hidden;}
+#headBox > .menuBox > .gnb >button{width: 64px; height: 64px;float: right; margin-top:33px; margin-right: 20px;}
+#headBox > .menuBox > .gnb >button > span {display: block; width: 35px; height: 23px; margin: auto; background-image: url('../../img/headBox/gnb_bt.png');}
+#headBox > .menuBox > .gnb >  ul{ margin-left: 80px; position: absolute; z-index: 1; top: 320px;}
+#headBox > .menuBox > .gnb > ul > li {font-size: 50px; font-weight: bolder; margin-bottom: 30px; color: #fff;}
+#headBox > .menuBox > .gnb > ul > li > a {display: block; color: #fff; text-decoration: none;}
+
+#headBox > .menuBox > .gnb > .colorBox {width: 500px; height: 500px; background-color: #ccc; position: absolute; top:300px; left: -500px;}
+#headBox > .menuBox > .gnb > .colorBox > div {position: absolute; width: 400px; height: 100px; background-color: #3371ff; z-index: 0;}
+#headBox > .menuBox > .gnb > .colorBox > div:nth-child(2){top: 100px;}
+#headBox > .menuBox > .gnb > .colorBox > div:nth-child(3){top: 200px;}
+#headBox > .menuBox > .gnb > .colorBox > div:nth-child(4){top: 300px;}
+#headBox > .menuBox > .gnb > .colorBox > div:nth-child(5){top: 400px;}
